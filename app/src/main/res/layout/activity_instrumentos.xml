@@ -49,9 +49,10 @@
             android:layout_height="64dp"
             android:ems="10"
             android:gravity="center"
+            android:hint="Codigo Instrumentos"
             android:textSize="30dp"
             android:inputType="textPersonName"
-            android:text="Codigo Instrumentos" />
+             />
     </LinearLayout>
 
     <LinearLayout
@@ -75,7 +76,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Tipo"
+            android:hint="Tipo"
             android:textSize="30dp" />
     </LinearLayout>
 
@@ -100,7 +101,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Nombre Empleado"
+            android:hint="Nombre Empleado"
             android:textSize="30dp" />
     </LinearLayout>
 
@@ -122,6 +123,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:text="Anular"
+            android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
 
@@ -143,6 +145,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:text="Cancelar"
+            android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
 
@@ -165,6 +168,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:text="Regresar"
+            android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
 
@@ -188,6 +192,8 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:textSize="20dp"
+            android:onClick="Guardar"
+            android:textColor="@color/white"
             android:text="Guardar" />
     </LinearLayout>
 
@@ -209,6 +215,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
+            android:textColor="@color/white"
+            android:onClick="Consultar"
             android:backgroundTint="@color/colorbotones"
             android:text="Consultar" />
     </LinearLayout>

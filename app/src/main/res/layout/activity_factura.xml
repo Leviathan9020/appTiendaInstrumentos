@@ -48,7 +48,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Codigo"
+            android:hint="Codigo"
             android:textSize="30dp" />
     </LinearLayout>
 
@@ -73,7 +73,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Fecha"
+            android:hint="Fecha"
             android:textSize="30dp" />
     </LinearLayout>
 
@@ -99,7 +99,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Nombre Cliente"
+            android:hint="Nombre Cliente"
             android:textSize="30dp" />
     </LinearLayout>
 
@@ -124,7 +124,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="Valor"
+            android:hint="Valor"
             android:textSize="30dp" />
     </LinearLayout>
 
@@ -147,6 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
+            android:textColor="@color/white"
             android:text="Adicionar"
             android:textSize="20dp" />
     </LinearLayout>
@@ -170,6 +171,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
+            android:textColor="@color/white"
             android:text="Consultar"
             android:textSize="20dp" />
     </LinearLayout>
@@ -193,6 +195,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
+            android:textColor="@color/white"
             android:text="Regresar"
             android:textSize="20dp" />
     </LinearLayout>

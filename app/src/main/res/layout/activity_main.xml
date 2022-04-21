@@ -27,6 +27,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:text="Instrumentos"
+            android:onClick="irinstrumentos"
             android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
@@ -70,6 +71,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:textColor="@color/white"
+            android:onClick="irfactura"
             android:text="Factura"
             android:textSize="20dp" />
     </LinearLayout>
