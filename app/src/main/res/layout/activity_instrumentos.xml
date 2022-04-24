@@ -123,6 +123,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:text="Anular"
+            android:onClick="anular"
             android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
@@ -145,6 +146,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
             android:text="Cancelar"
+            android:onClick="cancelar"
             android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
@@ -167,6 +169,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
+            android:onClick="regresar"
             android:text="Regresar"
             android:textColor="@color/white"
             android:textSize="20dp" />

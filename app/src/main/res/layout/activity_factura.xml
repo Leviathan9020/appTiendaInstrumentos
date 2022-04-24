@@ -129,41 +129,17 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout13"
-        android:layout_width="159dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="15dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout14"
-        app:layout_constraintEnd_toStartOf="@+id/linearLayout15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
-
-        <Button
-            android:id="@+id/btadicionar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="@color/colorbotones"
-            android:textColor="@color/white"
-            android:text="Adicionar"
-            android:textSize="20dp" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout15"
-        android:layout_width="172dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="29dp"
+        android:layout_width="213dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="28dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout13"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout12" >
 
         <Button
@@ -171,32 +147,34 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
+            android:onClick="consultar_factura"
             android:textColor="@color/white"
-            android:text="Consultar"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:text="Consultar" />
     </LinearLayout>
+
+
 
     <LinearLayout
         android:id="@+id/linearLayout14"
         android:layout_width="224dp"
         android:layout_height="65dp"
         android:layout_marginStart="93dp"
-        android:layout_marginTop="14dp"
         android:layout_marginEnd="94dp"
         android:layout_marginBottom="32dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/btregresar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/colorbotones"
-            android:textColor="@color/white"
             android:text="Regresar"
+            android:onClick="regresar"
+            android:textColor="@color/white"
             android:textSize="20dp" />
     </LinearLayout>
 

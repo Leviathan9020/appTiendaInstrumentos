@@ -15,13 +15,16 @@ public class Conexion extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL("create table instrumentos(codigoinstrumentos text primary key,tipo text not null, nombreempleado text not null, activo text not null default'si')");
-
+        sqLiteDatabase.execSQL("create table factura(codigo text primary key, fecha text not null, nombre_cliente text not null, valor text not null, activo text not null default'si')");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
     sqLiteDatabase.execSQL("DROP TABLE instrumentos");{
     onCreate(sqLiteDatabase);
+        }
+        sqLiteDatabase.execSQL("DROP TABLE factura");{
+            onCreate(sqLiteDatabase);
         }
     }
 }
